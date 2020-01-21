@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
-//    测试
+//    多线程测试
     private static final AtomicInteger threadNumber = new AtomicInteger(1);
 
     private static class Task implements Runnable {
